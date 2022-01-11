@@ -32,20 +32,16 @@
 }
 
 .sub-nav-list {
-  display: none;
   position: absolute;
-  /* width: 100%; */
+  display: none;
   left: 0;
   right: 0;
 }
 
-/* Меню третьего уровня!!!! */
-.submenu-third {
-  position: absolute;
+/* Меню третьего уровня (модификатор, который открывает меню вправо)!!!! */
+.sub-nav-list-right {
   left: 100%;
-  top: -1px;
-  display: none;
-
+  top: 0;
 }
 
 .sub-nav-item {
@@ -53,11 +49,6 @@
 }
 
 .nav-list-item:hover > .sub-nav-list {
-  display: block;
-}
-
-/* !!!!!! */
-.nav-list-item:hover > .submenu-third {
   display: block;
 }
 
