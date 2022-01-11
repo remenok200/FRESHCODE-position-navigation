@@ -14,7 +14,6 @@
   position: relative;
   font-size: 18px;
   display: inline-block;
-  border: 0.1px solid #367452;
   background-color: #47986d;
   
   /* !!!!! */
@@ -26,6 +25,7 @@
 
 .link {
   display: block;
+  border: 0.1px solid #367452;
   padding: 10px 20px;
   text-decoration: none;
   color: inherit;
